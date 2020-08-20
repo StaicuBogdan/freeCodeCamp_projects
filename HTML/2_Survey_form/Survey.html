@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Survey.css">
+    <title>Survey Form</title>
+</head>
+<body>
+<div id="main">
+    <h1 id="title">Productivity Survey Form</h1>
+    <p id="description">Thank you for helping us better understand our clients and improve our product</p>
+    <div id="form-div">
+        <form id="survey-form">
+            <label id="name-label" for="name">
+                Name<br>
+                <input id="name" type="text" placeholder="Your Full Name" required>
+            </label>
+            <br><br>
+            <label id="email-label" for="email">
+                Email<br>
+                <input id="email" type="email" placeholder="Your Email Adress" required>
+            </label>
+            <br><br>
+            <label id="number-label" for="number">
+                Age<br>
+                <input id="number" type="number" placeholder="Your Age" min="1" max="110" required>
+            </label>
+            <br><br>
+            How productive would you say you are?
+            <label for="dropdown">
+                <select id="dropdown">
+                    <option>Not at all, I waste all my time</option>
+                    <option>Reasonably productive</option>
+                    <option>I am productive</option>
+                    <option>I work all day</option>
+                </select>
+            </label>
+            <br><br>
+            Do you think you could spend your time more effectively?
+            <br>
+            <label for="yes">
+                <input id="yes" value="yes" type="radio" name="time" checked>Yes
+            </label>
+            <br>
+            <label for="no">
+                <input id="no" value="no" type="radio" name="time">No
+            </label>
+            <br>
+            <label for="unsure">
+                <input id="unsure" value="unsure" type="radio" name="time">Not sure
+            </label>
+            <br><br>
+            Which of these would you actually do?
+            <br>
+            <label for="one">
+                <input id="one" value="focus" type="checkbox" name="improvement">
+                Be more focused on a single goal of yours at a time.
+            </label>
+            <br>
+            <label for="two">
+                <input id="two" value="food" type="checkbox" name="improvement">
+                Eat healthier food to feel more energetic.
+            </label>
+            <br>
+            <label for="three">
+                <input id="three" value="less" type="checkbox" name="improvement">
+                Use your phone and social media less.
+            </label>
+            <br>
+            <label for="four">
+                <input id="four" value="wakeup" type="checkbox" name="improvement">
+                Wake-up early to have a good day.
+            </label>
+            <br><br>
+            Leave any suggestions here:
+            <br>
+            <textarea id="textarea"></textarea>
+            <br><br>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
