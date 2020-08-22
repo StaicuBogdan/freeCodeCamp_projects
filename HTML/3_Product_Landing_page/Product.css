@@ -1,0 +1,228 @@
+body{
+    background-color: rgba(222, 222, 222, 1);
+    margin: 0;
+}
+
+#header{
+    background-color: rgba(201, 201, 201, 1);
+    padding: 0.5% 1.5% 0.5% 1.5%;
+    position: fixed;
+    width: 97%;
+    height:10.5vh;
+    text-align: center;
+}
+
+#header-img{
+    height: 5vh;
+    margin: auto;
+}
+
+#nav-bar{
+    margin-right: 35%;
+    margin-left: 35%;
+    font-size: 1.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    padding-top: 12vh;
+    text-align: center;
+}
+
+#form{
+    font-size: 2vh;
+    margin-top: 2%;
+    font-family: sans-serif;
+}
+
+#email{
+    font-size: 1.75vh;
+    font-family: sans-serif;
+    padding:1%;
+    margin-top:2%;
+    width:40vw;
+}
+
+#submit{
+    height: 4vh;
+    width: 100px;
+    margin-top: 2%;
+    background-color:rgba(240, 192, 0, 1);
+    font-size: 1.5vh;
+}
+
+#video{
+    width: 80%;
+    height: 300px;
+    border: none;
+}
+
+.feature{
+    padding:1%;
+    margin:5% 2% 5% 2%;
+    height: 150px;
+}
+
+#feature-one::before{
+    content: "";
+    background-color: rgba(201, 201, 201, 1);
+    display: block;
+    margin-top: -250px;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.feature-icon{
+    height: 100px;
+    margin-top: 5%;
+}
+
+.feature-description{
+    width: 70%;
+    text-align: left;
+    float: right;
+    font-family: sans-serif;
+}
+
+.model {
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    width: 300px;
+    margin: 2% auto 2% auto;
+}
+.model-name{
+    background-color: rgba(201, 201, 201, 1);
+    height: 15%;
+    width: 98%;
+    padding: 1%;
+}
+.model-name h2 {
+    font-size: 2vh;
+    font-family: sans-serif;
+}
+.model-description{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+}
+.model-description h2{
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.model-select{
+    margin-bottom: 3%;
+    font-family: sans-serif;
+    font-size: 1.6vh;
+    padding: 10px 15px 10px 15px;
+    background-color:rgba(240, 192, 0, 1) ;
+    border-style: none;
+}
+
+#footer{
+    font-family: sans-serif;
+    font-size: 1.5vh;
+    text-align: right;
+    background-color: rgba(201, 201, 201, 1);
+    height: 50px;
+    max-width: 1000px;
+    margin:auto;
+    color: rgba(0,0,0,0.51);
+    padding-top: 35px;
+}
+
+
+/*-------MEDIA QUERIES-------*/
+@media (min-width: 768px){
+    #header{
+        height: 5vh;
+        margin: auto;
+        text-align: initial;
+    }
+    #nav-bar{
+        float: right;
+        width: 45%;
+        height:5vh;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav-link{
+        font-size: 1.8vh;
+        font-family: sans-serif;
+    }
+
+    #container{
+        padding-top: 10vh;
+    }
+
+    #form{
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    #email{
+        width: 500px;
+    }
+    #submit{
+        width: 200px;
+    }
+
+    #video{
+        width: 560px;
+        height: 315px;
+        border: none;
+    }
+
+    .feature{
+        max-width: 768px;
+        margin: 1% auto 1% auto;
+    }
+    .feature-icon{
+        margin-top: 2%;
+    }
+
+    #models{
+        height: 300px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .model{
+        float: left;
+        width: 31%;
+        margin: 1%;
+    }
+
+}
+
+@media (max-width: 357px){
+    #video{
+        width: 80%;
+        height: 200px;
+        border: none;
+    }
+}
+
+@media (min-width: 1000px){
+    #models{
+        width: 966px;
+        margin: auto;
+    }
+
+    .model{
+        float: left;
+        width: 300px;
+        margin: 1%;
+    }
+}
