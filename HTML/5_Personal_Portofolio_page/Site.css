@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    height:80px;
+    position: fixed;
+    width:100%;
+    background-color: hsla(350, 65%, 45%, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: space-between;
+    float:right;
+    list-style-type: none;
+    padding: 20px 40px;
+    width: 350px;
+}
+
+#welcome-section{
+    background: linear-gradient(235deg, rgba(25,25,25,1) 0%, rgba(56,56,59,1) 84%);
+    height: 50vh;
+    top: 80px;
+    text-align: center;
+    padding-top: 50vh;
+}
+
+#welcome-section h1{
+    font-family: 'Ralewey', sans-serif;
+    font-size: 60px;
+    color: rgba(240, 240, 240, 1);
+}
+
+#welcome-section p{
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    color: hsla(350, 75%, 35%, 1);
+}
+
+
+#projects{
+    background-color: rgb(69, 86, 125);
+    padding:120px 20px 120px 20px;
+}
+
+#projects-title{
+    font-family: 'Ralewey', sans-serif;
+    font-size: 40px;
+    color: rgba(240, 240, 240, 1);
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    max-width: 650px;
+    margin:auto;
+}
+
+.project-tile{
+    margin: 2% 0 2% 0;
+    font-family: sans-serif;
+    background-color: hsla(233, 0%, 20%, 1);
+    border-radius: 1%;
+}
+
+
+.tile-image{
+    max-width: 98%;
+    margin:1%;
+}
+
+.tile-title{
+    text-align: center;
+    color: rgba(240, 240, 240, 1);
+    padding: 20px;
+    font-weight: 200;
+}
+
+.tile-title:hover{
+    transform: scale(1.2);
+}
+
+#contact{
+    background-color:hsla(42, 61%, 65%, 1) ;
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-size: large;
+    border-bottom: 4px solid darkred;
+    height:100vh;
+}
+
+#contact div{
+    padding: 600px 0 0 0;
+}
+
+#contact h1{
+    font-size: 50px;
+}
+
+#contact p{
+    font-size: 25px;
+}
+
+#contact img{
+    padding: 0;
+    width: 250px;
+    margin:auto;
+}
+
+#contact img:hover{
+    transform: scale(1.25);
+}
+
+footer{
+    background-color:hsla(42, 61%, 65%, 1) ;
+    text-align: left;
+    font-family: Poppins,sans-serif;
+    padding: 25px 15px 40px 15px;
+}
+
+footer p{
+    font-size: 16px;
+    max-width: 500px;
+}
+
+@media (min-width: 940px){
+    .project-tile{
+        margin: 20px;
+    }
+    #proiecte{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
