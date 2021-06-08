@@ -1,5 +1,0 @@
-HTML_1_Tribute_page ---> https://codepen.io/staicubogdan-the-selector/pen/RwaGLYG
-HTML_2_Survey_form  ---> https://codepen.io/staicubogdan-the-selector/pen/LYNbNXP
-HTML_3_Product_page ---> https://codepen.io/staicubogdan-the-selector/pen/LYNboxX
-HTML_4_Technical_Documentation_page---> https://codepen.io/staicubogdan-the-selector/pen/rNeXyjq
-HTML_5_Personal_Portofolio_page ---> https://codepen.io/staicubogdan-the-selector/pen/jOrxzVd
